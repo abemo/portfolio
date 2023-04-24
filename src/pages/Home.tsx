@@ -12,9 +12,9 @@ function Home() {
         <h2>Hi, my name in Abraham</h2>
         <div className="prompt"> 
           <p>A software developer and computer scientist with interests in artificial intelligence and machine learning. </p> 
-          <GitHubIcon />
-          <LinkedInIcon />
-          <EmailIcon />
+          <GitHubIcon onClick={() => {window.open('https://github.com/abemo', '_blank')}}/>
+          <LinkedInIcon onClick={() => {window.open('https://www.linkedin.com/in/amooreodell/', '_blank')}}/>
+          <EmailIcon onClick={() => {window.open('mailto:abemooreodell@gmail.com')}}/>
         </div>
       </div>
       <div className="skills">

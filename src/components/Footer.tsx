@@ -9,9 +9,9 @@ function Footer() {
   return (
     <div className="footer">
         <div className="socialMedia">
-            <GitHubIcon />
-            <LinkedInIcon />
-            <EmailIcon />
+          <GitHubIcon onClick={() => {window.open('https://github.com/abemo', '_blank')}}/>
+          <LinkedInIcon onClick={() => {window.open('https://www.linkedin.com/in/amooreodell/', '_blank')}}/>
+          <EmailIcon onClick={() => {window.open('mailto:abemooreodell@gmail.com')}}/>
         </div>
         <p> &copy; 2023 abemo.com</p>
     </div>
